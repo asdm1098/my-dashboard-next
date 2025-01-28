@@ -7,6 +7,8 @@ interface Props {
     children: React.ReactNode,
 }
 
+//*Aqui se puede lanzar cualquier inicialización
+
 export const Providers = ({ children }: Props) => {
   return (
     <Provider store={ store }>
