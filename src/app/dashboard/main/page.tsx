@@ -1,4 +1,4 @@
-import { SimpleWidget, WidgetsGrid } from "@/components";
+import { WidgetsGrid } from "@/components";
 
 
 export const metadata = {

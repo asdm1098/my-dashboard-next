@@ -1,4 +1,4 @@
-export async function GET(request: Request) {
+export async function GET(/* request: Request */) {
     
     // console.log({ method: request.method })
     return Response.json({
@@ -7,7 +7,7 @@ export async function GET(request: Request) {
      });
 }
 
-export async function POST(request: Request) {
+export async function POST(/* request: Request */) {
     
     // console.log({ method: request.method })
     return Response.json({
